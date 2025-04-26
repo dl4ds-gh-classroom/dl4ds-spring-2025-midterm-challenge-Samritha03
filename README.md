@@ -104,18 +104,18 @@ The top 10 students on the Private leaderboard will receive bonus points.
 The following shows the overall structure of this repository:
 ```
 .
-├── .github/                                 # GitHub Classroom feedback files
-├── .gitignore                               # Git ignore file
-├── README.md                                # Project overview and instructions
-├── requirements.txt                         # Python package dependencies
-├── sample_submission.csv                    # Sample format for submission
-├── starter_code.py                          # Starter template for model training
-├── utils.py                                 # Utility functions
+├── .github/                                  # GitHub Classroom feedback files
+├── .gitignore                                # Git ignore file
+├── README.md                                 # Project overview and instructions
+├── requirements.txt                          # Python package dependencies
+├── sample_submission.csv                     # Sample format for submission
+├── starter_code.py                           # Starter template for model training
+├── utils.py                                  # Utility functions
 │
 ├── eval_cifar100.py                          # Script to evaluate model on CIFAR-100
 ├── eval_ood.py                               # Script to evaluate model on OOD data
 │
-├── Deep Learning Midterm Report.pdf         # Final Report Document
+├── Deep Learning Midterm Report.pdf          # Final Report Document
 │
 ├── part1_simple_cnn.ipynb                    # Part 1: Training SimpleCNN and SimpleCNN++
 ├── part2_sophisticated_cnn.ipynb             # Part 2: Training ResNet18, DenseNet121
