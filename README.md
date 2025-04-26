@@ -102,6 +102,7 @@ The top 10 students on the Private leaderboard will receive bonus points.
 ## Repository Structure
 
 The following shows the overall structure of this repository:
+```
 .
 ├── .github/                                 # GitHub Classroom feedback files
 ├── .gitignore                               # Git ignore file
@@ -128,4 +129,4 @@ The following shows the overall structure of this repository:
 ├── submission_ood_part3convnext_ep50.csv     # OOD submission for ConvNeXt (50 epochs)
 ├── submission_ood_part3densenet_ep30.csv     # OOD submission for DenseNet121 (30 epochs)
 └── submission_ood_part3densenet_ep50.csv     # OOD submission for DenseNet121 (50 epochs)
-
+```
