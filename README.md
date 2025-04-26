@@ -1,3 +1,4 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/xnB1OI0j)
 # DS542 Deep Learning for Data Science -- Spring 2025 Midterm Challenge
 
 ## Overview
@@ -96,3 +97,36 @@ The grading rubric is as follows:
 ## Bonus Points (Optional)
 
 The top 10 students on the Private leaderboard will receive bonus points.
+
+
+## Repository Structure
+
+The following shows the overall structure of this repository:
+```
+.
+├── .github/                                  # GitHub Classroom feedback files
+├── .gitignore                                # Git ignore file
+├── README.md                                 # Project overview and instructions
+├── requirements.txt                          # Python package dependencies
+├── sample_submission.csv                     # Sample format for submission
+├── starter_code.py                           # Starter template for model training
+├── utils.py                                  # Utility functions
+│
+├── eval_cifar100.py                          # Script to evaluate model on CIFAR-100
+├── eval_ood.py                               # Script to evaluate model on OOD data
+│
+├── Deep Learning Midterm Report.pdf          # Final Report Document
+│
+├── part1_simple_cnn.ipynb                    # Part 1: Training SimpleCNN and SimpleCNN++
+├── part2_sophisticated_cnn.ipynb             # Part 2: Training ResNet18, DenseNet121
+├── part3_transfer_learning.ipynb             # Part 3: Transfer learning with DenseNet, ConvNeXt
+│
+├── submission_ood_part1cnn.csv               # OOD submission for SimpleCNN
+├── submission_ood_part1cnnpp.csv             # OOD submission for SimpleCNN++
+├── submission_ood_part2densenet121.csv       # OOD submission for DenseNet121
+├── submission_ood_part2resnet18.csv          # OOD submission for ResNet18
+├── submission_ood_part3convnext_ep30.csv     # OOD submission for ConvNeXt (30 epochs)
+├── submission_ood_part3convnext_ep50.csv     # OOD submission for ConvNeXt (50 epochs)
+├── submission_ood_part3densenet_ep30.csv     # OOD submission for DenseNet121 (30 epochs)
+└── submission_ood_part3densenet_ep50.csv     # OOD submission for DenseNet121 (50 epochs)
+```
